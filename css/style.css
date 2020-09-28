@@ -175,6 +175,7 @@ header p{
   nav{
     padding: 30px 0px;
     /*Your code here:*/
+    text-align: right;
   }
 
   .container{
