@@ -39,7 +39,7 @@ nav li {
   text-decoration: none;
 }
 
-nav li:hover {
+nav a:hover {
   text-decoration: underline;
 }
 
@@ -89,6 +89,7 @@ footer{
 .container{
   /*Your Code Here*/
   display: grid;
+  -webkit-grid-template-columns: 1fr 5fr 1fr;
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: auto auto auto auto auto;
   grid-row-gap: 15px;
