@@ -43,11 +43,6 @@ nav li:hover {
   text-decoration: underline;
 }
 
-/*nav li:focus {
-  text-decoration: underline;
-}*/
-
-
 .skip a{
   background: white;
   left: 0;
@@ -57,7 +52,7 @@ nav li:hover {
   z-index: 1;
 
   /*Your code here*/
-  position: relative;
+  position: absolute;
   top: -40px;
 }
 
